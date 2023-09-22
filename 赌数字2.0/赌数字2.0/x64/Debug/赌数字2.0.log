@@ -1,0 +1,3 @@
+﻿  代码.c
+C:\Users\86187\Desktop\code\novice-stage\赌数字2.0\赌数字2.0\代码.c(7,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  赌数字2.0.vcxproj -> C:\Users\86187\Desktop\code\novice-stage\赌数字2.0\x64\Debug\赌数字2.0.exe
