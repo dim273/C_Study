@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	printf("请输入一串字符或者数字(当你想停下的时候输入crtl+Z,这时会打印你输入的数字个数)\n");
+	char ch;
+	int i = 0;
+	while ((ch = getchar()) != EOF)
+	{
+		if (ch < '0' || ch>'9')
+			continue;
+		putchar(ch);
+		i++;
+	}
+	printf("你刚才一共输入的数字有%d\n", i);
+
+	return 0;
+}
