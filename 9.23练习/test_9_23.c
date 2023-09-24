@@ -3,14 +3,14 @@
 int main()
 {
 	char password[20];
-	printf("ÇëÊäÈëÄãµÄÃÜÂë£º");
+	printf("è¯·è¾“å…¥ä½ çš„å¯†ç ï¼š")
 	scanf("%s",password );
 	int ch = 0;
-	while ((ch = getchar()) != '\n')
+	while ((ch = getchar()) != '\n')//ç”¨æ¥æ¸…é™¤å›žè½¦é”®åŠç©ºæ ¼é”®
 	{
 		;
 	}
-	printf("ÇëÈ·ÈÏÄãµÄÃÜÂë£¨ÊäÈëY»òÕßN£©£º>");
+	printf("è¯·ç¡®è®¤ä½ çš„å¯†ç ï¼ˆè¾“å…¥Yæˆ–è€…Nï¼‰ï¼š>");
 	int check=getchar();
 	if ('Y' == check)
 		printf("Yes");
