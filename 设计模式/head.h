@@ -1,0 +1,14 @@
+#pragma once
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <cstring>
+#include <istream>
+#include <fstream>
+#include <cmath>
+#include <vector>
+#include <cstdio>
+#include <iomanip>
+#include <ctime>
+#include <cstdlib>
+#include <string_view>
